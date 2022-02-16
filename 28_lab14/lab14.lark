@@ -1,0 +1,11 @@
+lines: line(newline line)*
+
+line: word(","word)*
+
+word: /[a-zA-Z]+/|
+
+newline: "\n"
+
+
+%import common.WORD
+
